@@ -1,0 +1,104 @@
+/* shared styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.section-title {
+    color: #151414;
+    ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #444343;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* header related styles */
+.header {
+
+    background-image: url("images/banner/banner2.png");
+    background-repeat: no-repeat;
+    height: 950px;
+    background-size: cover;
+}
+
+.banner {
+    padding: 200px 230px 200px 840px;
+    text-align: right;
+
+}
+
+.banner-title {
+    color: #151414;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.banner-description {
+
+    color: #444343;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* main section related styles */
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+main section {
+    margin-top: 400px;
+}
+
+/* about section related styles */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.profile-pic {
+    width: 600px;
+    margin-top: -207px;
+}
+
+.about-image {
+    background-color: rgba(241, 91, 34, 0.20);
+    border-radius: 527.929px;
+    width: 600px;
+    height: 600px;
+}
+
+
+.about li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: 
+}
+
+.plan-items-container{
+    display: flex;
+    justify-content: space-around;
+}
