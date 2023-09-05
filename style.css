@@ -1,5 +1,8 @@
 /* shared styles */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -11,7 +14,9 @@ body {
     font-weight: 700;
     margin-bottom: 50px;
 }
-.my-plans, .call-section{
+
+.my-plans,
+.call-section {
     margin-top: 130px;
 }
 
@@ -119,6 +124,21 @@ main {
     justify-content: space-between;
 }
 
+.plan-items{
+    text-align: center;
+}
+.plan-item-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-item-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 /* call section related styles */
 
 .call-section {
@@ -126,7 +146,7 @@ main {
     background-repeat: no-repeat;
     padding: 35px 617px 59px 64px;
     border-radius: 8px;
-    
+
 }
 
 .call-section-title {
@@ -145,5 +165,55 @@ main {
     font-size: 20px;
     font-weight: 600;
     border: 0;
+
+}
+
+footer {
+    background-color: #151414;
+    padding: 130px 230px;
+    display: flex;
+    gap: 429px;
+    margin-top: 130px;
+}
+
+.footer-column{
+    width:50%;
+}
+.footer-column-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.subscription-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+input[type="email"] {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 22px;
+    background: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    width: 59%;
 
 }
